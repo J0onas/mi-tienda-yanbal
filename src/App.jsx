@@ -285,7 +285,7 @@ export default function App() {
                 target="_blank"
                 className="btn-primary px-5 py-2 rounded-full font-bold flex items-center gap-2 text-sm"
             >
-                <Phone size={16} /> Escribenos
+                <Phone size={16} /> Contactanos
             </a>
           </nav>
 
