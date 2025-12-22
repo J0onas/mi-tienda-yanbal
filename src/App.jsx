@@ -98,7 +98,7 @@ const PRODUCTS = [
 // --- COMPONENTES AUXILIARES ---
 
 const Notification = ({ message, show }) => (
-  <div className={`fixed top-32 right-5 bg-green-600 text-white px-6 py-4 rounded-xl shadow-2xl transition-all duration-500 z-50 transform ${show ? 'translate-x-0 opacity-100' : 'translate-x-10 opacity-0'} flex items-center gap-3 border-l-4 border-white`}>
+<div className={`fixed top-32 right-5 bg-green-600 text-white px-6 py-4 rounded-xl shadow-2xl transition-all duration-500 z-[100] transform ${show ? 'translate-x-0 opacity-100 pointer-events-auto' : 'translate-x-10 opacity-0 pointer-events-none'} flex items-center gap-3 border-l-4 border-white`}>
     <div className="bg-white/20 p-2 rounded-full">
         <CheckCircle size={20} />
     </div>
@@ -551,8 +551,8 @@ export default function App() {
       {/* --- CART DRAWER --- */}
       {isCartOpen && (
         <>
-          <div className="fixed inset-0 bg-black/60 z-50 backdrop-blur-[2px] transition-opacity" onClick={() => setIsCartOpen(false)}></div>
-          <div className="fixed inset-y-0 right-0 w-full md:w-[450px] bg-white z-50 shadow-2xl flex flex-col transform transition-transform animate-slide-in">
+          <div className="fixed inset-0 bg-black/60 z-[60] backdrop-blur-[2px] transition-opacity" onClick={() => setIsCartOpen(false)}></div>
+          <div className="fixed inset-y-0 right-0 w-full md:w-[450px] bg-white z-[70] shadow-2xl flex flex-col transform transition-transform animate-slide-in">
             <div className="p-6 border-b flex justify-between items-center bg-gray-50">
               <h2 className="text-2xl font-bold flex items-center gap-3 font-serif">
                 Tu Pedido
