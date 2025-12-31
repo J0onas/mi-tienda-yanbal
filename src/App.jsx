@@ -24,16 +24,7 @@ const PRODUCTS = [
     description: "Dos aromas encantadores. Destellos frutales de granada, flor de maracuyá y jengibre. Edición especial.",
     badge: "OFERTA TOP"
   },
-  {
-    id: 76009,
-    name: "Set Ccori Rosé Parfum",
-    price: 39.00,
-    originalPrice: 61.00,
-    category: "Perfumes",
-    image: "https://placehold.co/400x400/FF6B35/ffffff?text=Set+Ccori+Rose", // CAMBIAR IMAGEN
-    description: "El poder del oro rosa. Floral ambarado con ciruela y vainilla. Incluye: Parfum 50ml + Desodorante.",
-    badge: "SET REGALO"
-  },
+ 
   {
     id: 2222,
     name: "Colonia de Seda Gold",
@@ -50,27 +41,18 @@ const PRODUCTS = [
     price: 13.00,
     originalPrice: 19.00,
     category: "Perfumes",
-    image: "https://placehold.co/400x400/FF6B35/ffffff?text=Soy+Sexy", // CAMBIAR IMAGEN
+    image: "https://www.yanbal.com/medias/20013948-01.jpg?context=bWFzdGVyfGltYWdlc3w5MzY2NnxpbWFnZS9qcGVnfGFETm1MMmd3WWk4eE1EazBNRGM1TlRZNE1qZzBOaTh5TURBeE16azBPRjh3TVM1cWNHY3xlODJmM2Y3ZWQ2M2E3NDAyMTNkOTdiMjVmYWQ0OTc5MGNlYTRmYzFiMDAzYWZiNmEwNjYxYzJhZGJjOWE1YzA2", 
     description: "Aroma ambarado maderoso con neroli, sándalo y musk. Para celebrar tu personalidad única.",
     badge: "COLECCIÓN"
   },
-  {
-    id: 76038,
-    name: "Set Gaïa Parfum",
-    price: 39.00,
-    originalPrice: 61.00,
-    category: "Perfumes",
-    image: "https://placehold.co/400x400/FF6B35/ffffff?text=Set+Gaia", // CAMBIAR IMAGEN
-    description: "Revela la diosa en ti. Notas florales de jacarandá, magnolias y orquídeas. Incluye: Parfum + Desodorante.",
-    badge: "SET REGALO"
-  },
+
   {
     id: 2202,
     name: "Ícono Intense Eau de Parfum",
     price: 31.50,
     originalPrice: 45.00,
     category: "Perfumes",
-    image: "https://placehold.co/400x400/FF6B35/ffffff?text=Icono+Intense", // CAMBIAR IMAGEN
+    image: "https://www.yanbal.com/medias/20013904-01.jpg?context=bWFzdGVyfGltYWdlc3wxMTU4NzZ8aW1hZ2UvanBlZ3xhR1E0TDJnd05TOHhNRFEwTXpJd09UWXdOVEUxTUM4eU1EQXhNemt3TkY4d01TNXFjR2N8ZWRiZWRkNmVmNTQ4NDM1ODE3MTU4NDdjYjM5YWZlZjA0ZDNiOTlhNTk4NDZhMGE2NTFjZTkwOGYxY2FmYThhZg", 
     description: "La versión más intensa. Con ylang ylang, notas de cedro y crema de vainilla. Floral ambarado.",
     badge: "INTENSO"
   },
@@ -80,20 +62,11 @@ const PRODUCTS = [
     price: 37.00,
     originalPrice: 53.00,
     category: "Perfumes",
-    image: "https://placehold.co/400x400/FF6B35/ffffff?text=Pasion", // CAMBIAR IMAGEN
+    image: "https://www.yanbal.com/medias/20013838-01.jpg?context=bWFzdGVyfGltYWdlc3wxNTA3MzF8aW1hZ2UvanBlZ3xhRGs0TDJoaU15OHhNRFEzTlRjMk1UYzVOVEV3TWk4eU1EQXhNemd6T0Y4d01TNXFjR2N8MWRkMWVjYjUyNDUyYTM1OTk5YjUwNmY5NTRhN2UyMDkwMDM0NWJiMDAzNTBhNzZjMGJkMzM0ODkwMzJmOGFhNQ", 
     description: "Con peonía blanca, violeta y una nota cautivadora de tonka. Aroma ambarado floral.",
     badge: "30% DTO"
   },
-  {
-    id: 76040,
-    name: "Eau Vitale (Elige tu Aroma)",
-    price: 22.00,
-    originalPrice: 44.00,
-    category: "Perfumes",
-    image: "https://placehold.co/400x400/FF6B35/ffffff?text=Eau+Vitale+2x1", // CAMBIAR IMAGEN
-    description: "Aromaterapia para el bienestar. Elige entre Lavanda, Té Verde o Neroli. ¡Llévate 2 por el precio de 1!",
-    badge: "2x1"
-  },
+  
   {
     id: 2224,
     name: "Osadía Hombre Carácter",
@@ -104,23 +77,14 @@ const PRODUCTS = [
     description: "Fusión provocativa de hierbabuena, café dulce y madera de ébano. Carácter y seducción.",
     badge: "OFERTA TOP"
   },
-  {
-    id: 76012,
-    name: "Set Arom Absolute",
-    price: 36.00,
-    originalPrice: 56.00,
-    category: "Perfumes",
-    image: "https://placehold.co/400x400/000000/ffffff?text=Set+Arom+Absolute", // CAMBIAR IMAGEN
-    description: "Maderoso especiado con limón Kaffir y cardamomo. Incluye: Parfum 90ml + Desodorante.",
-    badge: "MEJOR PRECIO"
-  },
+  
   {
     id: 202,
     name: "Solo Parfum",
     price: 35.00,
     originalPrice: 50.00,
     category: "Perfumes",
-    image: "https://placehold.co/400x400/000000/ffffff?text=Solo+Parfum", // CAMBIAR IMAGEN
+    image: "https://www.yanbal.com/medias/20012790-es-ES-01.jpg?context=bWFzdGVyfGltYWdlc3wxMjcyMzR8aW1hZ2UvanBlZ3xhVzFoWjJWekwyZzRaaTlvWm1Ndk9UWTRNamN5TVRnMk5UYzFPQzVxY0djfGMzMjQ3MWNhOGVhM2ZhZjA0MTQzZGVkMDIwNDM1YTg5Zjg0OWNmNWUxNmMyMGMxNzAzNGJlYzU4NDAyOWEzMjg", 
     description: "Aroma maderoso cítrico con cáscara de mandarina, jengibre y cuero. Para el hombre que define su camino.",
     badge: "30% DTO"
   },
@@ -130,7 +94,7 @@ const PRODUCTS = [
     price: 33.50,
     originalPrice: 48.00,
     category: "Perfumes",
-    image: "https://placehold.co/400x400/000000/ffffff?text=Dendur", // CAMBIAR IMAGEN
+    image: "https://www.yanbal.com/medias/20013697-01.jpg?context=bWFzdGVyfGltYWdlc3w0ODIxMDJ8aW1hZ2UvanBlZ3xhRGd6TDJoaVl5OHhNRFEzT1RBd01UQTNOVGMwTWk4eU1EQXhNelk1TjE4d01TNXFjR2N8MGY2NWIxMTg0OTQxNTkyOWZjNDZiNzBlYzhiMjI5NDg0MzA3Y2FlYTMwNTIxNDBmYjdkM2NhZTgxOTcxNzg3MA", 
     description: "Aroma ambarado especiado con jengibre, tabaco y pimienta negra. Espíritu libre y aventurero.",
     badge: "CLÁSICO"
   },
@@ -142,7 +106,7 @@ const PRODUCTS = [
     price: 36.00,
     originalPrice: 52.00,
     category: "Cremas",
-    image: "https://placehold.co/400x400/800080/ffffff?text=Elixir+Vida+Rostro", // CAMBIAR IMAGEN
+    image: "https://www.yanbal.com/medias/20013713-01.jpg?context=bWFzdGVyfGltYWdlc3w1NDYzM3xpbWFnZS9qcGVnfGFETXlMMmhsTXk4eE1EUTJORGd6TXpJM016ZzROaTh5TURBeE16Y3hNMTh3TVM1cWNHY3xiZmRlNTc2OTRkY2ZiNzNmNDMzNjQwOGIzODZjMDRjYzE2OTA0YTZjN2JjYzNlYWU5MzM0ZDg3MjZmYmIyYzQx", 
     description: "Crema rejuvenecedora con Resveratrol. Alisa arrugas y reafirma. Resultados en 7 días.",
     badge: "ANTIEDAD"
   },
@@ -152,7 +116,7 @@ const PRODUCTS = [
     price: 28.00,
     originalPrice: 40.00,
     category: "Cremas",
-    image: "https://placehold.co/400x400/800080/ffffff?text=Elixir+Vida+Ojos", // CAMBIAR IMAGEN
+    image: "https://www.yanbal.com/medias/20013714-01.jpg?context=bWFzdGVyfGltYWdlc3w5MDU2NXxpbWFnZS9qcGVnfGFESmhMMmcxWVM4eE1EUTJORGd6TVRjMk5qVTFPQzh5TURBeE16Y3hORjh3TVM1cWNHY3w2MjM4YzRiNzg5N2Q4NzZhZDMxMDcxNWFkZDM0MTdkZjRhMmY1ZTNkZjQ5NTZkMDUyNDYwNDI4ODVkMGRmZGJm", 
     description: "Acción antiedad contra bolsas, ojeras y arrugas. Con efecto bótox natural.",
     badge: "30% DTO"
   },
@@ -172,7 +136,7 @@ const PRODUCTS = [
     price: 34.00,
     originalPrice: 49.00,
     category: "Cremas",
-    image: "https://placehold.co/400x400/800080/ffffff?text=Serum+Antimanchas", // CAMBIAR IMAGEN
+    image: "https://www.yanbal.com/medias/20013710-01.jpg?context=bWFzdGVyfGltYWdlc3w5MDgxOXxpbWFnZS9qcGVnfGFETTBMMmhpTmk4eE1EUTJORGd6TWpNMU5qTTRNaTh5TURBeE16Y3hNRjh3TVM1cWNHY3xkZjg4YjdkNDAzMzFiODZhMzhiMzAzZjZhM2RmNTdhZDZmNmZkMmRjOTMyZjFiOTc5ZmZkNTVjZGQ2YjhiNTQy", 
     description: "Actúa contra la hiperpigmentación. Con niacinamida y hexylresorcinol. 100% acción antimanchas.",
     badge: "EFECTIVO"
   },
@@ -182,7 +146,7 @@ const PRODUCTS = [
     price: 18.90,
     originalPrice: 27.00,
     category: "Cremas",
-    image: "https://placehold.co/400x400/800080/ffffff?text=Limpiador+Pigment", // CAMBIAR IMAGEN
+    image: "https://www.yanbal.com/medias/20013423-01.jpg?context=bWFzdGVyfGltYWdlc3wzMDM2NTh8aW1hZ2UvanBlZ3xhR00wTDJobU1pOHhNRFUzTmpVeE16SXdOREkxTkM4eU1EQXhNelF5TTE4d01TNXFjR2N8NWFhYjQzZGE3ZGEzMWVmMWUxYWQwNTEzMjVlOWFiNzg1YzQwOWU1ZTdhNzllZTM2ZTVlYTM4NTM5ZDdlZTVkNg", 
     description: "Limpia, tonifica, exfolia y despigmenta. Restaura la luminosidad del rostro.",
     badge: "NUEVO"
   },
@@ -202,7 +166,7 @@ const PRODUCTS = [
     price: 22.00,
     originalPrice: 32.00,
     category: "Cuidado Personal",
-    image: "https://placehold.co/400x400/00aaee/ffffff?text=Dermafusion+Gel", // CAMBIAR IMAGEN
+    image: "https://www.yanbal.com/medias/20013976-01.jpg?context=bWFzdGVyfGltYWdlc3wxMDQ0NDd8aW1hZ2UvanBlZ3xhRFl5TDJnNVlTOHhNVE13TkRJNU1ERTRPVE0wTWk4eU1EQXhNemszTmw4d01TNXFjR2N8ZjQ5OTQwZTIyMjg1OWFhNDljMTk2Y2ZiOWE0YjcxYjE1YmQ4OTgxODZjMjg5ZjNlMmQ5MDYxMzA5NTdlY2IwOQ", 
     description: "Gel invisible tipo primer. Acabado mate aterciopelado con ácido hialurónico.",
     badge: "INVISIBLE"
   },
@@ -222,7 +186,7 @@ const PRODUCTS = [
     price: 18.00,
     originalPrice: 24.00,
     category: "Cuidado Personal",
-    image: "https://placehold.co/400x400/00aaee/ffffff?text=Blum+Serum", // CAMBIAR IMAGEN
+    image: "https://www.yanbal.com/medias/20013893-01.jpg?context=bWFzdGVyfGltYWdlc3w2ODkzM3xpbWFnZS9qcGVnfGFHRmtMMmhrTmk4eE1EVTNNVEl3TWpRMk1UY3lOaTh5TURBeE16ZzVNMTh3TVM1cWNHY3w0ZDNlZDQ5N2YyYWM3NDEwNjMzMGUwMGU4ZTdiNjg2MTk3OWUxNzExZDkwZjQ0NzEzNzJiMzVhZjYzMmZkNzdk", 
     description: "Sérum reparador de puntas y control de frizz. Sin enjuague. Resultados desde el primer uso.",
     badge: "CONTROL FRIZZ"
   },
@@ -234,7 +198,7 @@ const PRODUCTS = [
     price: 18.90,
     originalPrice: 27.00,
     category: "Maquillaje",
-    image: "https://placehold.co/400x400/e91e63/ffffff?text=BB+Cream", // CAMBIAR IMAGEN
+    image: "https://www.yanbal.com/medias/20014031-01.jpg?context=bWFzdGVyfGltYWdlc3wzNjk5MXxpbWFnZS9qcGVnfGFERXhMMmd6Tnk4eE1EYzNORFV3TmpJME1qQTNPQzh5TURBeE5EQXpNVjh3TVM1cWNHY3xmMjBhMzlkMzM2ZDg1OWYwNmVmZWE4YmQ5NDgzZWM4MWM3ZDhjNjI0ZTAwMGRlODZhMDJkNjI4N2FhNzE2YWQ5", 
     description: "Hidrata, protege (SPF 30) y perfecciona la piel. Acabado natural mate hasta 10 horas.",
     badge: "TENDENCIA"
   },
@@ -244,7 +208,7 @@ const PRODUCTS = [
     price: 11.00,
     originalPrice: 16.00,
     category: "Maquillaje",
-    image: "https://placehold.co/400x400/e91e63/ffffff?text=BB+Lips", // CAMBIAR IMAGEN
+    image: "https://www.yanbal.com/medias/20014036-01.jpg?context=bWFzdGVyfGltYWdlc3wxMjE4OTl8aW1hZ2UvanBlZ3xhRGxrTDJoaU1DOHhNRFU0TVRVd01EYzFOVGs1T0M4eU1EQXhOREF6Tmw4d01TNXFjR2N8Y2NmY2VmMTQ5MmMwODhiMGNlZmNlZDI5YWQyMmFkY2YwNjkzMzdlMGM5ZjA5MTQ5ODQxMDA3M2ZhNDEzOGVmMg", 
     description: "Labios hidratados, reparados y con un toque de color. Con manteca de karité y SPF 20.",
     badge: "HIDRATACIÓN"
   },
@@ -264,7 +228,7 @@ const PRODUCTS = [
     price: 8.00,
     originalPrice: 12.00,
     category: "Maquillaje",
-    image: "https://placehold.co/400x400/e91e63/ffffff?text=Ya+Mascara", // CAMBIAR IMAGEN
+    image: "https://www.yanbal.com/medias/20013349-01.jpg?context=bWFzdGVyfGltYWdlc3wyNjUwMHxpbWFnZS9qcGVnfGFETTVMMmd5TXk4eE1ESTNNak13TXpRME9EQTVOQzh5TURBeE16TTBPVjh3TVM1cWNHY3wzZTBlOGJjZjA0ZTQxMzNhMWFiNmRjZTI4Nzg5NTViOGMxNzNjNTQzYTI2OTQ0YzRjZTQ1NmY1YWU3NTFmMzQx", 
     description: "4 beneficios en 1: Alarga, define, da volumen y rizado. A prueba de agua.",
     badge: "PRÁCTICO"
   },
@@ -274,20 +238,11 @@ const PRODUCTS = [
     price: 13.50,
     originalPrice: 18.00,
     category: "Maquillaje",
-    image: "https://placehold.co/400x400/e91e63/ffffff?text=Active+Shine", // CAMBIAR IMAGEN
+    image: "https://www.yanbal.com/medias/20014167-01.jpg?context=bWFzdGVyfGltYWdlc3w5MTcxMnxpbWFnZS9qcGVnfGFEbGlMMmcxTUM4eE1UZzVOekUyTWpBd05qVTFPQzh5TURBeE5ERTJOMTh3TVM1cWNHY3wwNTFhOWI5NWFmZTJhYjdhMzM2OWU1ZDA2ZTMxN2JjZGZkMDVhMjU1ZGMzZTIxNzQ2NWEyYzQ1ZWQzNTcyZmQx", 
     description: "Labial con cápsulas de destellos que se activan al presionar los labios. Larga duración.",
     badge: "BRILLO"
   },
-  {
-    id: 79038,
-    name: "Hydra-Lip Líquido Mate",
-    price: 18.00,
-    originalPrice: 36.00,
-    category: "Maquillaje",
-    image: "https://placehold.co/400x400/e91e63/ffffff?text=HydraLip+Mate+2x1", // CAMBIAR IMAGEN
-    description: "Acabado mate e hidratación con ácido hialurónico. ¡Oferta 2x1! Elige tus tonos favoritos.",
-    badge: "2x1"
-  },
+ 
   {
     id: 6393,
     name: "Paleta Sombras 58th",
@@ -304,7 +259,7 @@ const PRODUCTS = [
     price: 18.00,
     originalPrice: 26.00,
     category: "Maquillaje",
-    image: "https://placehold.co/400x400/e91e63/ffffff?text=Polvos+Sueltos", // CAMBIAR IMAGEN
+    image: "https://www.yanbal.com/medias/20013758-01.jpg?context=bWFzdGVyfGltYWdlc3w5MjI4NXxpbWFnZS9qcGVnfGFEWmxMMmhqWkM4eE1UTTVPREV5T0RNek5qa3lOaTh5TURBeE16YzFPRjh3TVM1cWNHY3wzMzkzMTQ3MmI4ZTU3NjRhM2VkZDkyOWFlNDg2YTBmYmMxNTA2YzIyNzg1ZmU2Y2I0YzYzZWNmNmRkZmU0NmM3", 
     description: "Sella y matifica sin resecar. Con ácido hialurónico y SPF 15. Tonos universales.",
     badge: "NUEVO"
   },
@@ -314,7 +269,7 @@ const PRODUCTS = [
     price: 9.50,
     originalPrice: 15.00,
     category: "Maquillaje",
-    image: "https://placehold.co/400x400/e91e63/ffffff?text=Delineador+Tattoo", // CAMBIAR IMAGEN
+    image: "https://www.yanbal.com/medias/20013276-01.jpg?context=bWFzdGVyfGltYWdlc3wxMzIyNjV8aW1hZ2UvanBlZ3xhR0ZoTDJnM1pTOHhNRFE0TXpZNU5ESXpPVGMzTkM4eU1EQXhNekkzTmw4d01TNXFjR2N8ZTRhMjJjN2ZiNzVjNzY2MzAwNGQ3YjA5YzI1ZDNiNTcyZDU2ODdiMmNhODJmNjE0MWVkM2ZjMzljNTRmZTRkNg", 
     description: "Punta plumón flexible. Color negro intenso, a prueba de agua y sudor. Hasta 24h de duración.",
     badge: "RESISTENTE"
   },
@@ -324,7 +279,7 @@ const PRODUCTS = [
     price: 35.00,
     originalPrice: 44.00,
     category: "Maquillaje",
-    image: "https://placehold.co/400x400/e91e63/ffffff?text=Set+Brochas", // CAMBIAR IMAGEN
+    image: "https://www.yanbal.com/medias/22372661-01.jpg?context=bWFzdGVyfGltYWdlc3wxNjU4NDV8aW1hZ2UvanBlZ3xhRFU1TDJnM01DOHhNVGcxT1RFMU9UQXlNelkwTmk4eU1qTTNNalkyTVY4d01TNXFjR2N8MzllZGU3NmIyMTU0OWYzNDc5ZTIyYWZmOWM5ZjZmNjYwMTQ5ZWQyMjc0ODkzNGFkMjQzNGI1OWMyOGRiMWI5OA", 
     description: "4 brochas profesionales con mango de madera. Incluye brocha para base, polvos, sombras y cejas.",
     badge: "PREMIUM"
   },
@@ -336,37 +291,18 @@ const PRODUCTS = [
     price: 25.50,
     originalPrice: 30.00,
     category: "Joyería",
-    image: "https://placehold.co/400x400/FFD700/ffffff?text=Collar+Inicial", // CAMBIAR IMAGEN
+    image: "https://www.yanbal.com/medias/25043231-01.jpg?context=bWFzdGVyfGltYWdlc3w3NjE3NnxpbWFnZS9qcGVnfGFERXpMMmc0TUM4eE1UYzNORE16TXpBMU9URXdNaTh5TlRBME16SXpNVjh3TVM1cWNHY3xkZDVlMTAwYzI0NjVlZmFlODdkOTI0ZGFlYWE4MmQyOWRhM2RiZTcwNDNjOTE2ZjJjMjBlZmRkYWVjMjBkMzlj", 
     description: "Personaliza tu regalo. Bañado en oro de 24k con cristales. El detalle perfecto para Navidad.",
     badge: "REGALO TOP"
   },
-  {
-    id: 43188,
-    name: "Collar Leonora",
-    price: 74.00,
-    originalPrice: 74.00,
-    category: "Joyería",
-    image: "https://placehold.co/400x400/FFD700/ffffff?text=Collar+Leonora", // CAMBIAR IMAGEN
-    description: "Elegancia pura. Bañado en oro de 24 quilates. Diseño exclusivo de eslabones.",
-    badge: "LUJO"
-  },
-  {
-    id: 43210,
-    name: "Aros Delia",
-    price: 32.00,
-    originalPrice: 32.00,
-    category: "Joyería",
-    image: "https://placehold.co/400x400/FFD700/ffffff?text=Aros+Delia", // CAMBIAR IMAGEN
-    description: "Aros clásicos con un toque moderno. Baño de oro de 24k. Perfectos para combinar.",
-    badge: "CLÁSICO"
-  },
+  
   {
     id: 43221,
     name: "Set Ilusión Cristal",
     price: 42.00,
     originalPrice: 42.00,
     category: "Joyería",
-    image: "https://placehold.co/400x400/FFD700/ffffff?text=Set+Ilusion", // CAMBIAR IMAGEN
+    image: "https://www.yanbal.com/medias/25043221-01.jpg?context=bWFzdGVyfGltYWdlc3w5NzY3NHxpbWFnZS9qcGVnfGFEazBMMmhoTXk4eE1UZ3pOVFV6T1RJMU9UUXlNaTh5TlRBME16SXlNVjh3TVM1cWNHY3xjZjI5ZDAxYTZjYzQyODVkOTdmMDZhNzYzODZiOGFjMjNlOWQzYjNiYmJkZGYxODA2MDRlZWE4MTVjNWJjNGJm", 
     description: "Collar y pendientes con cristales finos. Brillo sutil para tus celebraciones.",
     badge: "SET"
   }
